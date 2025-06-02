@@ -2,7 +2,11 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+1) Clone this github repository in your machine
+
+2) Change babel.config.js to babel.config.js.bak in order to run the app. Change back to original name when working on unit testings. 
+
+2) Run the development server:
 
 ```bash
 npm run dev
