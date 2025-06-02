@@ -38,10 +38,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## Como funciona la App
 
+### Page.js es el componente principal de esta aplicacion de Next.js que muestra el clima en tiempo real gracias al uso de el API OpenWeatherMap.
+
 ![Screenshot_1](https://github.com/user-attachments/assets/5e287574-4cf3-4e4a-982f-f96efc7b9909)
 ![Screenshot_2](https://github.com/user-attachments/assets/9e2d45be-e34f-4958-b789-70994ed2325c)
 
-### Page.js es el componente principal de esta aplicacion de Next.js que muestra el clima en tiempo real gracias al uso de el API OpenWeatherMap.
 
 ### 1. **Importaciones**
 - Importa React, hooks (`useState`), componentes de UI (`BsSearch`, `Image`, `Head`), y componentes propios (`Spinner`, `Clima`).
