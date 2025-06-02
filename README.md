@@ -34,3 +34,28 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+## App Funcionality
+
+
+App completada con unit tests
+![Screenshot_1](https://github.com/user-attachments/assets/5e287574-4cf3-4e4a-982f-f96efc7b9909)
+![Screenshot_2](https://github.com/user-attachments/assets/9e2d45be-e34f-4958-b789-70994ed2325c)
+
+Page.js es el componente principal de esta aplicacion de Next.js que muestra el clima en tiempo real gracias al uso de el API OpenWeatherMap. 
+
+Imports: 
+
+-React
+-useState hook
+-UI componentes (BsSearch, Image, Head), 
+-Componentes propios de la aplicacion (Spinner, Clima).
+
+Estados:
+
+- city: almacena el texto ingresado por el usuario.
+- weather: almacena los datos del clima obtenidos de la API.
+- loading: indica si la app está esperando la respuesta de la API.
+- error: almacena mensajes de error para mostrar al usuario.
+
